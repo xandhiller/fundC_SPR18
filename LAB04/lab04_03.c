@@ -19,12 +19,13 @@ int main (void) {
   printArray(input, SIZE, INPUT);  
   arrayCalculation(input, SIZE); 
   printArray(input, SIZE, OUTPUT);
+  printf("Max value of output array is: %d\n", findMax(input, SIZE));
   return 0;
 }
 
 void takeInput(int array[], int size) {
   int i; 
-  printf("Enter %d values separated by spaces> ", SIZE);
+  printf("Enter %d values separated by spaces> ", size);
   for (i = 0; i < size; i++) {
     scanf("%d", &array[i]);
   }
@@ -56,7 +57,11 @@ void arrayCalculation(int array[], int size) {
 }
 
 int findMax(int array[], int size) {
-  
-  
+  int i, max; 
+  for (max = 0, i = 0; i < size; i++) { 
+    if (array[i] > max) {
+      max = array[i];
+    }
+  }  
   return max;
 }
