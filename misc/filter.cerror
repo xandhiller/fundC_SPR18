@@ -1,0 +1,7 @@
+filter.c: In function ‘main’:
+filter.c:98:31: error: lvalue required as left operand of assignment
+         (char*)points[lineNb] = "c";
+                               ^
+
+
+Monday 4 March  22:40:56 AEDT 2019

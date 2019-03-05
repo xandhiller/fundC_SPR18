@@ -1,0 +1,7 @@
+const.c: In function ‘main’:
+const.c:22:14: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     int *p = &x;
+              ^
+
+
+Monday 4 March  21:13:57 AEDT 2019
