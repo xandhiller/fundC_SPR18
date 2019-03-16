@@ -5,8 +5,7 @@
  * Program Description: 
  *    A program similar to grep, built from the ground up.
  *
- */
-
+ */ 
 
 #include <stdlib.h>
 #include <stdio.h>

@@ -1,0 +1,94 @@
+#! /usr/local/bin/sent
+
+Fundamentals of C
+tut1
+Alex Hiller
+alexander.hiller@uts.edu.au
+
+Me:
+⋅ Final year of undergrad in:
+    Electrical Engineering & 
+      Medical Science
+⋅ Also teaching this semester: 
+  ⋅ Physical Modelling: tut03 and tut07
+  ⋅ Fundamentals of C: lab01, lab03 and lab08
+  ⋅ Mathematical Modelling 1: tut13
+
+More me:
+⋅ Capstone: 
+  ⋅ Vehicle to vehicle communication.
+⋅ Areas of interest:
+  ⋅ UNIX⋅based systems (Linux)
+  ⋅ Programming in C and Python
+  ⋅ Mathematics:
+      Vector Calculus, 
+      Complex Analysis (Calculus),
+      dabbled in some Topology and
+      Differential Geometry.
+
+References/when to use the textbook
+
+Discussion board:
+  for all q's
+
+Subject Outline:
+  Our contract with you.
+
+Today:
+  ⋅ Get used to linux
+  ⋅ Learn to compile
+  ⋅ Learn the process of writing code to execution.
+  ⋅ Labs are outlined online.
+
+Teaching philosophy:
+  ⋅ Competency
+  ⋅ Understanding
+  ⋅ Utility
+  ⋅ Beauty of code
+
+Style:
+  ⋅ Why is good code style important?
+      (or not?)
+  ⋅ Thoughts on consistency?
+
+Hello world time!
+
+The shell:
+  ls
+  cd
+  mkdir
+  gcc
+  chmod
+  arguments
+
+The basics of a C file.
+  # include
+  # define
+  int main (int argc, char⋅ argv){}
+  int
+  float
+  double
+  char
+
+Our compile statement:
+    gcc -Wall -Werror -ansi 
+    -o myfirstcprog.out 
+    myfirstcprog.c -lm
+
+The comparator executable.
+
+How to program:
+  1. Specify the problem requirements
+  2. Analyse the problem
+  3. Design the algorithm to solve the problem
+  4. Implement the algorithm (code)
+  5. Test and verify the completed program
+
+How to use:
+    printf() 
+    scanf() 
+
+LAB01:
+    ⋅ 1 milliliter = 0.033814 fluid ounces
+    ⋅ Write a program to convert a 
+        volume in ounces to milliliters
