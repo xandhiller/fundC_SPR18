@@ -62,8 +62,8 @@ The shell:
   arguments
 
 The basics of a C file.
-  # include
-  # define
+  #include
+  #define
   int main (int argc, char⋅ argv){}
   int
   float
