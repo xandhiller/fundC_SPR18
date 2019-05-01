@@ -1,4 +1,4 @@
-# Suggested Group Projects 
+# Group Project Suggestions
 # `Fundamentals of C Programming (48430)`
 
 These projects are '_suggested_', as they appear to the teaching staff to have
@@ -7,6 +7,10 @@ programming skills.
 
 You may still choose something of your own, though these projects will give you
 enough scope to score well on the marking criteria for the group project.
+
+**Note:** Any stored data from these programs should be used as the input to a
+compression and encryption algorithm, in order to meet the requirements for that
+component of the assesment.
 
 ## 1. Matrix Manipulation Software
 A command line interface should be built that supports the following operations:
@@ -54,14 +58,8 @@ Other requirements:
 * User should be able to decide if data should be input either via a 
   command-line interface or via file.
   
-## 4. (?) Generation of Ciphers for Input Text
-
-You may use any of the following ciphers:
-
-* <++>
-
-With any of these, after being encoded, output should be sent to a file or 
-terminal an encoded version.
+## 4. Generation of Ciphers for Input Text
+<++>
 
 ## 5. Timezone Converter and Calendar Calculations
 <++>

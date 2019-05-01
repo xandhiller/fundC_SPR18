@@ -40,7 +40,9 @@ main (int argc, char *argv[]) {
 
     printf("bword: %s\n", bword);
 
-
+    strcat(word, "X")
+    
+    
 
     return 0;
 }
